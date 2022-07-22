@@ -1,0 +1,221 @@
+*{ 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+.header_top {
+    border: 1px solid black;
+    padding: 4px 0;
+    width: 100%;
+    background-color:rgba(209, 233, 235, 0.88);
+   
+    
+}
+
+.main-logo {
+    width: 20%;
+    padding: 1% 0% 0% 2%;
+    margin: 0;
+    /* background-color: rgb(53, 18, 250); */
+}
+
+.nav_menu {
+    padding: 2% 0% 0% 0%;
+    width: 80%;
+    background-image: url("../img/Vector.png") ;
+  margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sub_menu {
+    font-size: 30px;
+    margin: 0% 0% 0% 3%;
+    /* background-color: royalblue; */
+    color: rgb(0, 0, 0);
+    font-family: 'IM FELL DW Pica SC';
+    
+    font-weight: 400;
+
+
+}
+
+.main-container {
+    /* border: 1px solid black; */
+    padding: 2% 2%;
+    width: 100%;
+    /* background-color: FBFBFB; */
+   
+}
+
+.row {
+    /* border: 1px solid black; */
+    
+    /* background-color: lightblue; */
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    
+    
+}
+
+.ctnt_bar {
+    /* border: 1px solid black; */
+   width:58.33333%;
+    padding: 2% ;
+    /* background-color: chartreuse; */
+   
+}
+
+.img_bar {
+    padding: 1% 1%;
+    width: 41.66667%;
+    background-color: transparent;
+   
+}
+
+.word_block {
+    border: 1px solid black;
+    /* padding: 1rem 0rem !important; */
+    /* background-color: midnightblue; */
+}
+
+.btn_block {
+    /* border: 1px solid black; */
+    text-align: right;
+    padding: 0.5rem 1rem !important;
+
+    /* background-color:midnightblue; */
+}
+
+.imgbox {
+    /* border: 1px solid black; */
+    /* background-color: hotpink; */
+    margin: 4%;
+    
+}
+
+.srv_cont {
+    /* border: 1px solid black; */
+
+    width: 100%;
+    background-color: D1E9EB;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.srv-txtm {
+   
+    width: 100%;
+    padding: 2% 0% 1% 0%;
+    background-image: url("../img/Vector1.png") ;
+    
+}
+
+
+.f1 {
+    
+    background: none;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 38px;
+    color: #000000;
+    font-family: 'Graduate';
+}
+
+.f2 {
+    color: rgb(0, 0, 0);
+    background: none;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'grenze';
+    font-style: normal;
+    /* line-height:60px; */
+}
+
+.btn {
+    
+    padding: 3% 2% 3% 3%;
+    background: rgba(12, 0, 148, 0.75);
+    box-shadow: 8px 8px 9px -3px rgba(64, 120, 125, 0.86);
+    border-radius: 36px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+    color: white;
+    
+}
+
+.center {
+    text-align: center;
+}
+
+
+.boxpic {background: #C1C8D2;
+    /* border: 3px solid #0C0094; */
+    box-shadow: 3px 4px 13px rgba(0, 0, 0, 0.4);
+    border-radius: 54px;}
+
+.bdr {
+    /* border: 1px solid black; */
+    margin:2%
+ }
+
+.tl {font-size: 33px;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 59px;
+    
+    } 
+
+ .w100 {
+    width: 100%;
+   
+ }  
+
+ .navbar {
+    /* border: 1px solid black; */
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+   
+ }
+
+ .bdr-container { width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid;
+    margin: auto ;
+   }
+
+   .nav-cont {
+    /* border: 1px solid black; */
+    /* background-color: lightblue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:112rem;
+   }
+
+   @media only screen and (max-width: 1200px) {
+    .img_bar {
+       width: 42%;
+    }
+   
+   }
+   
+   /* @media only screen and (max-width: 1300px) {
+    .nav_menu {
+         display: none;
+    }
+    } */
+
