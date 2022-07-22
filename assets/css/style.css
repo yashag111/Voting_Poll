@@ -165,7 +165,7 @@
     box-shadow: 3px 4px 13px rgba(0, 0, 0, 0.4);
     border-radius: 54px;}
 
-.bdr {
+.sub-srv {
     /* border: 1px solid black; */
     margin:2%
  }
@@ -190,7 +190,7 @@
    
  }
 
- .bdr-container { width: 80%;
+ .abt-container { width: 80%;
     display: flex;
     flex-wrap: wrap;
     border: 1px solid;
